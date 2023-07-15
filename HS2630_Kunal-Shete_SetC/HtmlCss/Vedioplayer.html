@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Sharing Platform</title>
+  <link rel="stylesheet" type="text/css" href="./css/vedioplayer.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+          <ul>
+            <li><a href="./main.html">Home</a></li>
+            <li><a href="./upload.html">Upload</a></li>
+          
+            <li><a href="./Vedioplayer.html">My Videos</a></li>
+          </ul>
+        </nav>
+        <form id="search-form">
+          <input type="text" placeholder="Search videos...">
+          <button type="submit">Search</button>
+        </form>
+      </header>
+      
+  
+  <div class="container">
+    <h2>My Favorite Vedios</h2>
+    <div class="video-grid">
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">10:00</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+         
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">5:23</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+          
+        </div>
+      </div>
+
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">23:12</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+         
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">8:12</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+          
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">14:20</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+         
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">7:00</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">43:00</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+          
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">11:45</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+          
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=0LhBvp8qpro&t=1945s">
+              <img src="https://source.unsplash.com/random/800x600" alt="Random Image">
+              <span class="duration">53:00</span>
+            </a>
+          </div>
+          
+        <div class="video-info">
+          <h3>Video Title 2</h3>
+          <p>Video Description</p>
+          
+        </div>
+      </div>
+
+     
+    </div>
+  </div>
+
+  <div id="video-player" class="hidden">
+    <div class="video-player-content">
+      <video controls></video>
+      <div class="video-player-info">
+        <h2>Video Title</h2>
+        <div class="video-player-actions">
+          <button id="like-btn">Like</button>
+          <button id="dislike-btn">Dislike</button>
+        </div>
+      </div>
+      <div class="video-comments">
+        <h3>Comments</h3>
+        <ul id="comments-list">
+          <!-- Comments will be dynamically added here -->
+        </ul>
+        <form id="comment-form">
+          <textarea placeholder="Add a comment"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p> All rights reserved@Kunal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

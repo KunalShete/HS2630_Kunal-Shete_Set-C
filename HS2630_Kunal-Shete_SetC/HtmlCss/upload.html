@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Video</title>
+  <link rel="stylesheet" href="./css/upload.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+        <li><a href="./main.html"><img src="./img/logo.png" alt="logo" class="logo"></a></li>
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./upload.html">Upload</a></li>
+        <li class="my-videos"><a href="./Vedioplayer.html">My Videos</a></li>
+        <li class="explore"><a href="./login.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form id="upload-form">
+      <div class="form-group">
+        <label for="video-title">Title:</label>
+        <input type="text" id="video-title" name="video-title" required>
+      </div>
+      <div class="form-group">
+        <label for="video-description">Description:</label>
+        <textarea id="video-description" name="video-description" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="video-file">Choose a video file:</label>
+        <input type="file" id="video-file" name="video-file" accept="video/*" required>
+      </div>
+      <button type="submit">Upload</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>All rights reserved@ kunal</p>
+  </footer>
+</body>
+</html>
